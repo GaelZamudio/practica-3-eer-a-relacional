@@ -1,0 +1,14 @@
+-- =====================================================================
+-- Práctica 3: Transformación EER → relacional
+-- Zona A: Personas y hogares
+-- Responsable: Alejandro
+-- Tablas: zona, persona, rescatista, adoptante, veterinario,
+--         hogar_temporal, hogar_especie
+-- Orden de ejecución: 1 de 3 (no depende de otras zonas)
+-- Reglas que aplica: 1 (entidad fuerte), 2 (compuesto: dirección),
+--         3 (multivaluado: especies_aceptadas), 4 (1:N), 9 (jerarquía de Persona)
+-- Atributos por verificar contra el EER: zona.entidad,
+--         persona.fecha_registro, hogar_temporal.alias, hogar_temporal.activo
+-- Derivado que NO se guarda (documentar en 6.5): /lugares_disponibles
+-- Convenciones de nombres, tipos y ON DELETE: ver CONTRIBUTING.md
+-- =====================================================================

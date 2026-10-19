@@ -1,0 +1,15 @@
+-- =====================================================================
+-- Práctica 3: Transformación EER → relacional
+-- Zona C: Atención médica
+-- Responsable: José
+-- Tablas: clinica, vacuna, atencion_medica, vacunacion, cirugia,
+--         tratamiento
+-- Orden de ejecución: 3 de 3
+-- Depende de la zona A: veterinario
+-- Depende de la zona B: animal
+-- Reglas que aplica: 1, 4, 8 (entidad débil: atencion_medica),
+--         9 (jerarquía de Atención médica)
+-- Atributos por verificar contra el EER: clinica.tipo,
+--         vacuna.especie_destino, vacuna.intervalo_refuerzo_dias
+-- Convenciones de nombres, tipos y ON DELETE: ver CONTRIBUTING.md
+-- =====================================================================

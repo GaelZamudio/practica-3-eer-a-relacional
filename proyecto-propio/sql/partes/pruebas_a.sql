@@ -1,0 +1,7 @@
+-- =====================================================================
+-- Pruebas de restricciones: Zona A
+-- Responsable: Alejandro
+-- Estas instrucciones DEBEN FALLAR. No se incluyen en esquema.sql.
+-- Cada prueba lleva: qué restricción viola y el mensaje de error
+-- que devuelve el gestor (copiado de la ejecución real).
+-- =====================================================================

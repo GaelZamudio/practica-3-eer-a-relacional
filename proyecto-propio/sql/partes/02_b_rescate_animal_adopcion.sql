@@ -1,0 +1,17 @@
+-- =====================================================================
+-- Práctica 3: Transformación EER → relacional
+-- Zona B: Rescate, animal y adopción
+-- Responsable: Gael
+-- Tablas: rescate, rescate_rescatista, animal, perro, gato, otro,
+--         estancia, solicitud_adopcion, adopcion, seguimiento
+-- Orden de ejecución: 2 de 3
+-- Depende de la zona A: zona, rescatista, adoptante, hogar_temporal
+-- Reglas que aplica: 1, 4 (incluye la relación recursiva madre–cría),
+--         5 (M:N), 7 (ternaria: estancia), 8 (entidad débil: seguimiento),
+--         9 (jerarquía de Animal)
+-- Atributos por verificar contra el EER: rescate.descripcion_lugar,
+--         rescate.condicion_inicial, animal.senas, animal.color,
+--         seguimiento.medio, seguimiento.estado_del_animal
+-- Derivado que NO se guarda (documentar en 6.5): /esterilizado
+-- Convenciones de nombres, tipos y ON DELETE: ver CONTRIBUTING.md
+-- =====================================================================

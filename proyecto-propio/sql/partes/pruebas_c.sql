@@ -1,0 +1,7 @@
+-- =====================================================================
+-- Pruebas de restricciones: Zona C
+-- Responsable: José
+-- Estas instrucciones DEBEN FALLAR. No se incluyen en esquema.sql.
+-- Cada prueba lleva: qué restricción viola y el mensaje de error
+-- que devuelve el gestor (copiado de la ejecución real).
+-- =====================================================================
